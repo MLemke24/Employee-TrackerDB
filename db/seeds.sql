@@ -1,21 +1,19 @@
 INSERT INTO department (name)
 VALUES
 ('Engineering'),
-('R&D'),
 ('Accounting'),
 ('Sales'),
 ('Facilities'),
-('Upper Management');
+('Human Resources');
 
-INSERT INTO ROLE (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES
-('Lead Engineer', 145000, 1)
-('Engineer', 100000, 2),
-('R&D', 85000, 3),
-('Lead Office Manager', 145000, 4)
-('Accounting', 80000, 5),
-('Sales', 78000, 6),
-('Facilities', 45000, 7)
-('Lead Human Resources', 145000, 8)
-('Human Resources', 65000, 9);
+('Lead Engineer', 145000, 1),
+('Engineer', 100000, 1),
+('Lead Office Manager', 145000, 2),
+('Accounting', 80000, 2),
+('Sales', 78000, 3),
+('Facilities', 45000, 4),
+('Lead Human Resources', 145000, 5),
+('Human Resources', 65000, 5);
 
