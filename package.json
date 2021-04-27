@@ -1,0 +1,26 @@
+{
+  "name": "employee-trackerdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLemke24/Employee-TrackerDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MLemke24/Employee-TrackerDB/issues"
+  },
+  "homepage": "https://github.com/MLemke24/Employee-TrackerDB#readme"
+}
