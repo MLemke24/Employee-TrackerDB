@@ -5,9 +5,10 @@ This repository contains a Node.js project which manages and updates a employee 
 
 ## Languages Used
 * JavaScript
-* Node.js
+
 
 ## Other Resources Used
+* Node.js
 * NPM
 * Jest
 * MySql
