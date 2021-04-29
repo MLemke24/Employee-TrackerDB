@@ -8,7 +8,7 @@ const database = () => {
             type: 'list',
             name: 'action',
             message: 'what would you like to do?',
-            choices: ['See all employees', 'See employees by department', 'View all employees by manager', 'Add employee', 'Remove employee', 'Update role'] 
+            choices: ['See all employees', 'See employees by department', 'View all employees by manager', 'Add employee', 'Remove employee', 'Update role', 'End session'] 
         }
     ])
     .then (data => {
@@ -62,11 +62,11 @@ const database = () => {
             deleteEmployee()
         } else if (data.action == 'Update role'){
             updateRole()
+        } else if (data.action == 'End session') {
+            return data;
         }
     })
 }
-database()
-
 
 function addEmployee() {
     inquirer.prompt([
@@ -145,6 +145,7 @@ function updateRole() {
       })
     })
 }
+database()
 
 // Get all employees
 // SELECT e.id, e.first_name AS "First Name", e.last_name AS "Last Name", r.title AS "Title", d.name AS "Department", r.salary AS "Salary", CONCAT(m.first_name," ",m.last_name) AS "Manager"
