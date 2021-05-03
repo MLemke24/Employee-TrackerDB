@@ -32,4 +32,3 @@ VALUES
 ('Steph', 'Curry', null, 7),
 ('Klay', 'Thompson', 11, 8),
 ('Draymond', 'Green', 11, 8);
-
